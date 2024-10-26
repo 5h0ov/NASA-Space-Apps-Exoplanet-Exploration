@@ -19,12 +19,10 @@ The project **"EduExo"** is an innovative virtual platform designed by our team 
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Vite ReactJs ⚛️, Tailwind CSS 🎨, SCSS 
+- **Frontend**: Vite ReactJs ⚛️, Tailwind CSS 🎨, SCSS 💜
 - **Backend**: Node.js 🟢, Express 🚂
 - **Testing**: Postman 📮
 - **Deployment** - Vercel 🚀
-
-## 🚀 Getting Started Locally
 
 ## 🤝 Contributing
 
@@ -34,7 +32,7 @@ We welcome contributions to this project! Please feel free to submit issues, for
 
 This project is licensed under: [MIT licensed](./LICENSE)
 
-## 🙏 Recources
+## 🙏 Resources
 
 - https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/chronicles-of-exoplanet-exploration/
 - https://science.nasa.gov/exoplanets/exoplanet-catalog/
