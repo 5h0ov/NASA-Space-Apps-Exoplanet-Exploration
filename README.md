@@ -17,6 +17,8 @@ The project **"EduExo"** is an innovative virtual platform designed by our team 
 
 - 📒 **Exoplanet Info:** Detailed Info regarding the exoplanets are present under each of their individual pages and linked to the web 3-D view/model made by NASA.
 
+- 🛠️ **Automatic Updates:** Exoplanet Data is regularly updated using **Github Actions** as soon as it gets updated officially by NASA themselves.
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Vite ReactJs ⚛️, Tailwind CSS 🎨, SCSS 💜
