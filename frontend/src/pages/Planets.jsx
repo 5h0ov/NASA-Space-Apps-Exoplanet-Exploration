@@ -24,7 +24,7 @@ const Planets = () => {
     return savedFavourites ? JSON.parse(savedFavourites) : [];
   });
   const fetchPlanets = async () => {
-    const url = `https://science.nasa.gov/wp-json/smd/v1/content-list/?requesting_id=199043&post_types=exoplanet&categories&internal_terms&mission_status&mission_type&mission_target&mission_programs&news_tags&meta_fields=%7B%7D&exclude_child_pages=false&order=DESC&orderby=date&science_only=false&search_query=${searchQuery}&paged=${currentPage}&number_of_items=${itemsPerPage}&layout=grid&listing_page_category_id=0`;
+    const url = `https://science.nasa.gov/wp-json/smd/v1/content-list/?requesting_id=199043&post_types=exoplanet&categories&internal_terms&mission_status&mission_type&mission_target&mission_programs&news_tags&meta_fields=%7B%7D&exclude_child_pages=false&order=DESC&orderby=date&science_only=false&search_query=${searchQuery}&current_page=${currentPage}&number_of_items=${itemsPerPage}&layout=grid&listing_page_category_id=0`;
 
     setIsLoading(true);
 

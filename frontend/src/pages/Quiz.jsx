@@ -32,7 +32,7 @@ const Quiz = () => {
         console.log("Quiz data:", response.data);
 
         const response1 = await axios.get(
-          `https://science.nasa.gov/wp-json/smd/v1/content-list/?requesting_id=199043&post_types=exoplanet&categories&internal_terms&mission_status&mission_type&mission_target&mission_programs&news_tags&meta_fields=%7B%7D&exclude_child_pages=false&order=DESC&orderby=date&science_only=false&search_query=${planetName}&paged=1&number_of_items=10000&layout=grid&listing_page_category_id=0`
+          `https://science.nasa.gov/wp-json/smd/v1/content-list/?requesting_id=199043&post_types=exoplanet&categories&internal_terms&mission_status&mission_type&mission_target&mission_programs&news_tags&meta_fields=%7B%7D&exclude_child_pages=false&order=DESC&orderby=date&science_only=false&search_query=${planetName}&current_page=1&number_of_items=10000&layout=grid&listing_page_category_id=0`
         );
         const totalCount = response1.data.value.pagination.found_posts;
         setTotalPages(Math.ceil(totalCount / itemsPerPage));
