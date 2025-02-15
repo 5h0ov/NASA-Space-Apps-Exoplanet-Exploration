@@ -34,7 +34,7 @@
     position: relative;
     z-index: 1;
     opacity: 0;
-    animation: fadeInDescription 1s ease-in-out 2.5s forwards; // Delayed fade-in after the heading
+    animation: fadeInDescription 1s ease-in-out 0.5s forwards; // Delayed fade-in after the heading
 
     &::before {
       content: '';
@@ -58,7 +58,7 @@
       overflow: hidden;
     //   border-right: 3px solid #00e6ff;
       width: 0;
-      animation: typing 10s steps(50) 1.5s forwards;
+      animation: typing 5s steps(50) 1.0s forwards;
     }
 
     p {
@@ -66,7 +66,7 @@
       font-size: 16px;
       transform: translateY(20px);
       animation: fadeInText 1s ease-in-out forwards;
-      animation-delay: calc(3s + var(--delay));
+      animation-delay: calc(1.5s + var(--delay));
       margin-bottom: 1.5rem;
 
       &:nth-child(2) {
